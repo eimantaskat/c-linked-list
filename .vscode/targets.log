@@ -1,0 +1,334 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make data base, printed on Wed Feb 23 14:46:19 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+CUDA_PATH_V11_5 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile
+CURDIR :=  
+c:/Users/Eimantas/Desktop/linked list
+# default
+SHELL := C:/Program Files/Git/bin/sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-gb","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\Eimantas\OneDrive
+# environment
+MSMPI_BIN = C:\Program Files\Microsoft MPI\Bin\
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from `makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# environment
+TMP = C:\Users\Eimantas\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-885974e0-156b-4789-86f0-a90f125cc432-sock
+# environment
+VSCODE_CWD = C:\Users\Eimantas\Desktop\linked list
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files\Common Files\;C:\Program Files (x86)\Common Files\;C:\FFmpeg\bin;%PATH%;C:\chromedriver.exe;C:\Program Files\dotnet\;C:\WINDOWS\System32;C:\Users\Eimantas\AppData\Local\Microsoft\WindowsApps;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\dotnet\;C:\MinGW\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Eimantas\.dotnet\tools;C:\Users\Eimantas\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Eimantas\AppData\Roaming\npm;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.3.0\;C:\Users\Eimantas\AppData\Local\Programs\Python\Python310;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp;C:\Program Files\Git\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\Eimantas\AppData\Local\Programs\Python\Python310\Scripts;C:\Program Files\PuTTY\;C:\Program Files\heroku\bin;C:\ghcup\bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROG27B48B2C054 = 1
+# environment
+GHCUP_INSTALL_BASE_PREFIX = C:\
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\Eimantas
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+DOKANLIBRARY1 = C:\Program Files\Dokan\Dokan Library-1.4.0\
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives
+# environment
+CABAL_DIR = C:\cabal
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11020_FMLMXSPPTOQUQGGY
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = LAPTOP-L89QATFC
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.5
+# environment
+ASL.LOG = Destination=file
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = Eimantas
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Eimantas\AppData\Roaming\Code\CachedData\f80445acd5a3dadef24aa209168452a3d97cc326
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\LAPTOP-L89QATFC
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = LAPTOP-L89QATFC
+# environment
+MSMPI_BENCHMARKS = C:\Program Files\Microsoft MPI\Benchmarks\
+# environment
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# default
+MAKE_VERSION := 3.81
+# makefile
+.DEFAULT_GOAL := main
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X64 = C:\Program Files\Dokan\Dokan Library-1.4.0\lib\
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LOCALAPPDATA = C:\Users\Eimantas\AppData\Local
+# environment
+PSMODULEPATH = %ProgramFiles%\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+NVCUDASAMPLES11_5_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v11.5
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 10, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b92f6f3c96a74e7d8fc0e5639ca6107e-1.64.2-main-sock
+# environment
+HOMEPATH = \Users\Eimantas
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MSMPI_LIB32 = C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x86\
+# environment
+INTEL_DEV_REDIST = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Eimantas\AppData\Roaming
+# environment
+TEMP = C:\Users\Eimantas\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+DOKANLIBRARY1_LIBRARYPATH_X86 = C:\Program Files\Dokan\Dokan Library-1.4.0\x86\lib\
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+MSMPI_INC = C:\Program Files (x86)\Microsoft SDKs\MPI\Include\
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROCESSOR_REVISION = 9e0a
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 11020
+# environment
+MSMPI_LIB64 = C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64\
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-L89QATFC
+# variable set hash-table stats:
+# Load=105/1024=10%, Rehash=0, Collisions=9/124=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1643464420): 6 files, no impossibilities.
+# . (key c:/Users/Eimantas/Desktop/linked list, mtime 1645620377): 7 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.5/bin, mtime 1637868107): 44 files, no impossibilities.
+# C:\Users\Eimantas\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Eimantas/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1644570033): 4 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1634120816): 11 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1528196185): 10 files, no impossibilities.
+# %PATH%: could not be stat'd.
+# C:\Users\Eimantas\AppData\Roaming\npm (key C:/Users/Eimantas/AppData/Roaming/npm, mtime 1643621688): 15 files, no impossibilities.
+# C:\Users\Eimantas\.dotnet\tools: could not be stat'd.
+# C:\Program Files\Microsoft MPI\Bin\ (key C:/Program Files/Microsoft MPI/Bin/, mtime 1637851433): 6 files, no impossibilities.
+# C:\FFmpeg\bin (key C:/FFmpeg/bin, mtime 1616323458): 5 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1644569018): 11 files, no impossibilities.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1637240484): 58 files, no impossibilities.
+# C:\Program Files\MySQL\MySQL Shell 8.0\bin\: could not be stat'd.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1643463753): 5 files, no impossibilities.
+# C:\Program Files\Common Files\ (key C:/Program Files/Common Files/, mtime 1643464418): 12 files, no impossibilities.
+# C:\Users\Eimantas\AppData\Local\Microsoft\WindowsApps (key C:/Users/Eimantas/AppData/Local/Microsoft/WindowsApps, mtime 1643986046): 15 files, no impossibilities.
+# C:\Program Files\Git\bin (key C:/Program Files/Git/bin, mtime 1634120883): 5 files, no impossibilities so far.
+# C:\Program Files\NVIDIA Corporation\Nsight Compute 2021.3.0\ (key C:/Program Files/NVIDIA Corporation/Nsight Compute 2021.3.0/, mtime 1637614407): 12 files, no impossibilities.
+# C:\chromedriver.exe (key C:/chromedriver.exe, mtime 1643736988): could not be opened.
+# C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1644569077): 8 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1634120883): 7 files, no impossibilities.
+# C:\WINDOWS\System32 (key C:/WINDOWS/System32, mtime 1644951399): 3161 files, no impossibilities.
+# C:\Users\Eimantas\AppData\Local\Programs\Python\Python310 (key C:/Users/Eimantas/AppData/Local/Programs/Python/Python310, mtime 1637850548): 18 files, no impossibilities.
+# C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.5/libnvvp, mtime 1637868078): 14 files, no impossibilities.
+# C:\Program Files (x86)\Common Files\ (key C:/Program Files (x86)/Common Files/, mtime 1643463761): 18 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1545763387): 5 files, no impossibilities.
+
+# 3457 files, no impossibilities in 27 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-02-23 14:38:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 4):
+	rm main.exe
+	
+
+main:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `makefile', line 2):
+	g++ -o main main.c functions.c; ./main
+	
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Wed Feb 23 14:46:19 2022
+
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+ 
