@@ -1,34 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "functions.h"
-
-node* root = NULL;
-
-void add(int new_data) {
-    if (root) {
-        struct node* t = root;
-        while (t->next) {
-            t = t->next;
-        }
-        
-        t->next = (node*) malloc(sizeof(node));
-        t = t->next;
-        t->data = new_data;
-        t->next = NULL;
-
-    } else {
-        root = (node*) malloc(sizeof(node));
-        root->data = new_data;
-        root->next = NULL;
-    }
-}
+#include "list.h"
 
 int main () {
-    
-    add(5);
-    add(5);
-    add(5);
+    node* root = NULL;
 
+    add(&root, 4);
+    add(&root, 3);
+    add(&root, 7);
+    add(&root, 12);
+    // printf("Size: %d\n", size(root));
+    // printf(is_empty(root) ? "Empty\n" : "Not empty\n");
+    // printf("Element: %d\n", get(root, 7));
+    insert(&root, 3, 99);
+    remove(&root, 1);
+    printf("Found with index: %d\n", find(root, 5));
     print(root);
     
 }
