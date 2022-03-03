@@ -8,7 +8,7 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make data base, printed on Wed Feb 23 16:54:15 2022
+# Make data base, printed on Thu Mar 03 13:05:34 2022
 
 # Variables
 
@@ -60,7 +60,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-885974e0-156b-4789-86f0-a90f125cc432-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-f066cf6f-3eff-4c1d-af3e-986af2151157-sock
 # environment
 VSCODE_CWD = C:\Users\Eimantas\Desktop\linked list
 # environment
@@ -95,12 +95,11 @@ NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11020_FMLMXSPPTOQUQGGY
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2160_JAFDVHHVIPGXRAMF
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-COMPU 
-TERNAME = LAPTOP-L89QATFC
+COMPUTERNAME = LAPTOP-L89QATFC
 # environment
 PROGRAMFILES = C:\Program Files (x86)
 # environment
@@ -132,8 +131,7 @@ USERDOMAIN = LAPTOP-L89QATFC
 # environment
 MSMPI_BENCHMARKS = C:\Program Files\Microsoft MPI\Benchmarks\
 # environment
-MIC_LD_LIBRARY_PATH = C:\Program  
-Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
+MIC_LD_LIBRARY_PATH = C:\Program Files (x86)\Common Files\Intel\Shared Libraries\compiler\lib\mic
 # default
 MAKE = $(MAKE_COMMAND)
 # default
@@ -169,8 +167,8 @@ OS = Windows_NT
 # environment
 VSCODE_IPC_HOOK = \\.\pipe\b92f6f3c96a74e7d8fc0e5639ca6107e-1.64.2-main-sock
 # environment
-HOM 
-EPATH = \Users\Eimantas
+HOME 
+PATH = \Users\Eimantas
 # environment
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # environment
@@ -190,8 +188,7 @@ SYSTEMROOT = C:\WINDOWS
 # automatic
 +F = $(notdir $+)
 # environment
-APPDATA = C:\ 
-Users\Eimantas\AppData\Roaming
+APPDATA = C:\Users\Eimantas\AppData\Roaming
 # environment
 TEMP = C:\Users\Eimantas\AppData\Local\Temp
 # environment
@@ -210,8 +207,7 @@ LC_ALL = C
 ^F = $(notdir $^)
 # environment
 CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5
-# de 
-fault
+# default
 SUFFIXES := 
 # environment
 SYSTEMDRIVE = C:
@@ -224,7 +220,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 11020
+VSCODE_PID = 2160
 # environment
 MSMPI_LIB64 = C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x64\
 # environment
@@ -236,25 +232,23 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-L89QATFC
 
 # No pattern-specific variable values.
 
-# Dir 
-ectories
+# Directories
 
 # C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1643464420): 6 files, no impossibilities.
-# . (key c:/Users/Eimantas/Desktop/linked list, mtime 1645628049): 10 files, no impossibilities.
+# . (key c:/Users/Eimantas/Desktop/linked list, mtime 1646156505): 10 files, no impossibilities.
 # C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\bin (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.5/bin, mtime 1637868107): 44 files, no impossibilities.
-# C:\Users\Eimantas\AppData\Local\Programs\Microsoft VS Code\bin (ke 
-y C:/Users/Eimantas/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1644570033): 4 files, no impossibilities.
+# C:\Users\Eimantas\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/Eimantas/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1644570033): 4 files, no impossibilities.
 # C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1634120816): 11 files, no impossibilities.
 # C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1528196185): 10 files, no impossibilities.
 # %PATH%: could not be stat'd.
-# C:\Users\Eimantas\AppData\Roaming\npm (key C:/Users/Eimantas/AppData/Roaming/npm, mtime 164 
-3621688): 15 files, no impossibilities.
+# C:\Users\Eimantas\AppData\Roaming\npm (key C:/Users/Eimantas/AppData/Roaming/npm, mtime 1643621688): 15 files, no impossibilities.
 # C:\Users\Eimantas\.dotnet\tools: could not be stat'd.
 # C:\Program Files\Microsoft MPI\Bin\ (key C:/Program Files/Microsoft MPI/Bin/, mtime 1637851433): 6 files, no impossibilities.
 # C:\FFmpeg\bin (key C:/FFmpeg/bin, mtime 1616323458): 5 files, no impossibilities.
 # C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1644569018): 11 files, no impossibilities.
 # C:\MinGW\bin (key C:/MinGW/bin, mtime 1637240484): 58 files, no impossibilities.
-# C:\Program Files\MySQL\MySQL Shell 8.0\bin\: could not be stat'd.
+# C:\Program Fil 
+es\MySQL\MySQL Shell 8.0\bin\: could not be stat'd.
 # C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1643463753): 5 files, no impossibilities.
 # C:\Program Files\Common Files\ (key C:/Program Files/Common Files/, mtime 1643464418): 12 files, no impossibilities.
 # C:\Users\Eimantas\AppData\Local\Microsoft\WindowsApps (key C:/Users/Eimantas/AppData/Local/Microsoft/WindowsApps, mtime 1643986046): 15 files, no impossibilities.
@@ -263,8 +257,8 @@ y C:/Users/Eimantas/AppData/Local/Programs/Microsoft VS Code/bin, mtime 16445700
 # C:\chromedriver.exe (key C:/chromedriver.exe, mtime 1643736988): could not be opened.
 # C:\Program Files (x86)\dotnet\ (key C:/Program Files (x86)/dotnet/, mtime 1644569077): 8 files, no impossibilities.
 # C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1634120883): 7 files, no impossibilities.
-# C:\WINDOWS\System32 (key C:/WINDOWS/System32, mtime 1644951399): 3161 files, no impossibilities.
-# C:\Users\Eimantas\AppData\Local\Programs\Python\Python310 (key C:/Users/Eimantas/AppData/Local/Programs/Python/Python310, mtime 1637850548): 18 files, no impossibilities.
+# C:\WINDOWS\System32 (key C:/WINDOWS/System32, mtime 1646053850): 3160 files, no impossibilities.
+# C:\Users\Eimantas\AppData\Local\Programs\Python\Python310 (key C:/Users/Eimantas/AppData/Local/Programs/Python/Python310, mtime 1645870412): 19 files, no impossibilities.
 # C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.5\libnvvp (key C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.5/libnvvp, mtime 1637868078): 14 files, no impossibilities.
 # C:\Program Files (x86)\Common Files\ (key C:/Program Files (x86)/Common Files/, mtime 1643463761): 18 files, no impossibilities.
 # C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1545763387): 5 files, no impossibilities.
@@ -302,6 +296,9 @@ makefile:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
+ 
+make.exe: *** No rule to make target `all'.  Stop.
+ 
 .SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -344,8 +341,6 @@ main:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Feb 23 16:54:15 2022
+# Finished Make data base on Thu Mar 03 13:05:34 2022
 
- 
-make.exe: *** No rule to make target `all'.  Stop.
  

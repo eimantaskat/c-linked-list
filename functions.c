@@ -1,7 +1,9 @@
 #include "functions.h"
 #include "list.h"
 
-void print(node *root) {
+
+
+void display(node *root) {
     node *t = root;
     while (t != NULL) {
         printf("%d ", t->data);
@@ -9,7 +11,7 @@ void print(node *root) {
     }
 }
 
-void add(node **root, int data) {
+void append(node **root, int data) {
     if(*root) {
         node *t = *root;
 
@@ -28,6 +30,13 @@ void add(node **root, int data) {
     }
 }
 
+void push(node **root, int data) {
+    node *t = (node*) malloc(sizeof(node));
+    t->data = data;
+    t->next = *root;
+    *root = t;
+}
+
 int size(node *root) {
     int size = 0;
     if (root) {
@@ -43,13 +52,6 @@ int size(node *root) {
     return size;
 }
 
-bool is_empty(node *root) {
-    if (root)
-        return false;
-    else
-        return true;
-}
-
 int get(node *root, int index) {
     if (root) {
         int i = 0;
@@ -61,21 +63,21 @@ int get(node *root, int index) {
         if (i == index)
             return t->data;
         else {
-            printf("Index out of bounds\n");
+            printf("Elementas neegzistuoja\n");
             return 139;
         }
     } else {
-        printf("List is empty\n");
+        printf("Sarasas yra tuscias\n");
         return 1;
     }
 }
 
-void insert(node **root, int index, int data) {
+void insertAfter(node **root, int pos, int value) {
     node *t;
-    if (index > 0) {
+    if (pos > 0) {
         int i = 0;
         t = *root;
-        while (t->next && i < index-1) {
+        while (t->next && i < pos-1) {
             t = t->next;
             i++;
         }
@@ -83,25 +85,25 @@ void insert(node **root, int index, int data) {
             node *tt = t->next;
             t->next = (node*) malloc(sizeof(node));
             t = t->next;
-            t->data = data;
+            t->data = value;
             t->next = tt;
         } else {
-            printf("Index out of bounds");
+            printf("Elementas neegzistuoja\n");
         }
     } else {
         t = (node*) malloc(sizeof(node));
-        t->data = data;
+        t->data = value;
         t->next = *root;
         *root = t;
     }
 }
 
-void remove(node **root, int index) {
+void delete_position(node **root, int pos) {
     node *t;
-    if (index > 0) {
+    if (pos > 0) {
         int i = 0;
         t = *root;
-        while (t->next && i < index-1) {
+        while (t->next && i < pos-1) {
             t = t->next;
             i++;
         }
@@ -110,7 +112,7 @@ void remove(node **root, int index) {
             free(t->next);
             t->next = tt;
         } else {
-            printf("Index out of bounds");
+            printf("Elementas neegzistuoja\n");
         }
     } else {
         t = (*root)->next;
@@ -119,7 +121,24 @@ void remove(node **root, int index) {
     }
 }
 
-int find(node* root, int data) {
+void delete_first(node **root) {
+    node *t = *root;
+    *root = t->next;
+    free(t);
+}
+
+void delete_last(node **root) {
+    node *t = *root;
+    node* prev = NULL;
+    do {
+        prev = t;
+        t = t->next;
+    } while (t->next);
+    prev->next = NULL;
+    free(t);
+}
+
+int find(node *root, int data) {
     node *t = root;
     int i = 0;
     while (t) {

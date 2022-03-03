@@ -1,15 +1,14 @@
-#ifndef FUNCTIONS_H
-#define FUNCTIONS_H
+#pragma once
 
 #include "list.h"
 
-void add(node**, int data);
-bool is_empty(node*);
+void append(node**, int);
+void push(node**, int);
+void insertAfter(node**, int pos, int value);
+void delete_position(node**, int pos);
+void delete_first(node**);
+void delete_last(node**);
 int size(node*);
 int get(node*, int index);
-void insert(node**, int index, int data);
-void remove(node**, int index);
 int find(node*, int data);
-void print(node*);
-
-#endif
+void display(node*);
